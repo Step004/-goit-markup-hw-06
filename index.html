@@ -49,14 +49,14 @@
 
 
     <main>
-        <div class="container">
-            <section class="logo">
 
+        <section class="logo">
+            <div class="container">
                 <h1 class="logo-h">Effective Solutions for Your Business</h1>
                 <button type="button" class="button">Order Service</button>
+            </div>
+        </section>
 
-            </section>
-        </div>
 
         <section class="section-one">
             <div class="container">
@@ -112,22 +112,13 @@
             </div>
         </section>
 
-
-
-
-
-
-
-
-
-
-        
         <section class="section-two">
             <div class="container">
                 <h2 class="logo-our-team">Our Team</h2>
                 <ul class="section-two-list">
-                    <li class="section-two-list-item"><img src="./images/img.jpg" alt="Mark Guerrero" width="264"
-                            height="260">
+                    <li class="section-two-list-item">
+                        <img src="./images/img.jpg" alt="Mark Guerrero" width="264" height="260"
+                            class="section-two-list-item-img">
                         <div class="container-section-two-list-item">
                             <h3 class="section-two-list-item-name">Mark Guerrero</h3>
                             <p class="section-two-list-item-p">Product Designer</p>
@@ -156,7 +147,7 @@
                         </div>
                     </li>
                     <li class="section-two-list-item"><img src="./images/img1.jpg" alt="Tom Ford" width="264"
-                            height="260">
+                            height="260" class="section-two-list-item-img">
                         <div class="container-section-two-list-item">
                             <h3 class="section-two-list-item-name">Tom Ford</h3>
                             <p class="section-two-list-item-p">Frontend Developer</p>
@@ -185,7 +176,7 @@
                         </div>
                     </li>
                     <li class="section-two-list-item"><img src="./images/img2.jpg" alt="Camila Garcia" width="264"
-                            height="260">
+                            height="260" class="section-two-list-item-img">
                         <div class="container-section-two-list-item">
                             <h3 class="section-two-list-item-name">Camila Garcia</h3>
                             <p class="section-two-list-item-p">Marketing</p>
@@ -214,7 +205,7 @@
                         </div>
                     </li>
                     <li class="section-two-list-item"><img src="./images/img3.jpg" alt="Daniel Wilson" width="264"
-                            height="260">
+                            height="260" class="section-two-list-item-img">
                         <div class="container-section-two-list-item">
                             <h3 class="section-two-list-item-name">Daniel Wilson</h3>
                             <p class="section-two-list-item-p">UI Designer</p>
@@ -247,9 +238,9 @@
             </div>
         </section>
 
-        <!-- <section class="section-three">
+        <section class="section-three">
             <div class="container">
-                <h2 class="logo-our-team">Our Portfolio</h2>
+                <h2 class="logo-section-three">Our Portfolio</h2>
                 <ul class="section-three-list">
                     <li class="section-three-list-item">
                         <div class="overlay-wraper">
@@ -337,73 +328,80 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
     </main>
 
 
+
+
+
+
+
+
+
     <footer>
 
-        <!-- <div class="footer">
+        <div class="footer">
             <div class="container container-footer">
 
-            <div class="footer-lohotipe">
-                <a href="./index.html" class="webstudio-f">Web<span class="accent-f">Studio</span></a>
-                <p class="footer-p">
-                    Increase the flow of customers and
-                    sales for your business with digital
-                    marketing & growth solutions.
-                </p>
+                <div class="footer-lohotipe">
+                    <a href="./index.html" class="webstudio-f">Web<span class="accent-f">Studio</span></a>
+                    <p class="footer-p">
+                        Increase the flow of customers and
+                        sales for your business with digital
+                        marketing & growth solutions.
+                    </p>
+                </div>
+
+
+                <div class="footer-icons">
+                    <p class="footer-icon-p">Social media</p>
+                    <ul class="footer-icon-list">
+                        <li class="footer-icon-list-item"><a href="" class="footer-icon-list-a">
+                                <svg class="svg-icon" width=24 height=24>
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a></li>
+                        <li class="footer-icon-list-item"><a href="" class="footer-icon-list-a">
+                                <svg class="svg-icon" width=24 height=24>
+                                    <use href="./images/icons.svg#icon-twiter"></use>
+                                </svg>
+                            </a></li>
+                        <li class="footer-icon-list-item"><a href="" class="footer-icon-list-a">
+                                <svg class="svg-icon" width=24 height=24>
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                        <li class="footer-icon-list-item"><a href="" class="footer-icon-list-a">
+                                <svg class="svg-icon" width=24 height=24>
+                                    <use href="./images/icons.svg#icon-in"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="footer-subscribe">
+                    <p class="label-text">Subscribe</p>
+                    <form class="footer-form">
+
+                        <label class="footer-form-label">
+                            <input class="footer-form-input" type="email" name="email" placeholder="E-mail" required>
+                        </label>
+
+                        <button class="footer-form-button" type="submit">
+                            Subscribe
+                            <svg width="24" height="24" class="f-svg-icon">
+                                <use href="./images/icons.svg#telegram"></use>
+                            </svg>
+                        </button>
+
+                    </form>
+
+
+                </div>
+
             </div>
-
-
-            <div class="footer-icons">
-                <p class="footer-icon-p">Social media</p>
-                <ul class="footer-icon-list">
-                    <li class="footer-icon-list-item"><a href="" class="footer-icon-list-a">
-                            <svg class="svg-icon" width=24 height=24>
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a></li>
-                    <li class="footer-icon-list-item"><a href="" class="footer-icon-list-a">
-                            <svg class="svg-icon" width=24 height=24>
-                                <use href="./images/icons.svg#icon-twiter"></use>
-                            </svg>
-                        </a></li>
-                    <li class="footer-icon-list-item"><a href="" class="footer-icon-list-a">
-                            <svg class="svg-icon" width=24 height=24>
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a></li>
-                    <li class="footer-icon-list-item"><a href="" class="footer-icon-list-a">
-                            <svg class="svg-icon" width=24 height=24>
-                                <use href="./images/icons.svg#icon-in"></use>
-                            </svg>
-                        </a></li>
-                </ul>
-            </div>
-            <div class="footer-subscribe">
-                <p class="label-text">Subscribe</p>
-                <form class="footer-form">
-
-                    <label class="footer-form-label">
-                        <input class="footer-form-input" type="email" name="email" placeholder="E-mail" required>
-                    </label>
-
-                    <button class="footer-form-button" type="submit">
-                        Subscribe
-                        <svg width="24" height="24" class="f-svg-icon">
-                            <use href="./images/icons.svg#telegram"></use>
-                        </svg>
-                    </button>
-
-                </form>
-
-
-            </div>
-
         </div>
-        </div> -->
     </footer>
     <div class="form ">
         <!-- is-open -->
@@ -455,7 +453,7 @@
                 <div class="modal-window-chekbox">
                     <input type="checkbox" id="user-privacy" value="true" name="user-privacy"
                         class="input-chelbox visually-hidden">
-                    <label class="modal-window-chekbox-label private-polisi-chek" for="user-privacy">
+                    <label class="modal-window-chekbox-label" for="user-privacy">
                         <span class="modal-window-chekbox-span">
                             <svg width="10" height="8" class="modal-window-chekbox-label-svg" style="fill:white">
                                 <use href="./images/icons.svg#chek"></use>
