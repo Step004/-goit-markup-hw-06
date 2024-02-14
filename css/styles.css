@@ -302,7 +302,7 @@ input:checked+label>span {
 
 
 
-/* ===============LOGO MOBILE STYLE=========== */
+/* =============== MOBILE STYLE=========== */
 .logo-h {
     color: var(--WHITE, #FFF);
     text-align: center;
@@ -573,11 +573,6 @@ input:checked+label>span {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
-
-/* .svg-icon {
-    width: 40px;
-    height: 40px;
-} */
 
 input {
     padding: 4px;
